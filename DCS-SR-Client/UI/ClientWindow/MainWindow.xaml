@@ -171,13 +171,6 @@
                                     Command="{Binding Path=ConnectCommand}"
                                     Content="{Binding Path=ConnectText}"
                                     ToolTip="{Binding Path=AudioInput.MicrophoneAvailable, Converter={StaticResource MicAvailabilityTooltipConverter}}" />
-                            <Button x:Name="ToggleServerSettings"
-                                    Width="125"
-                                    Margin="0,10,0,0"
-                                    HorizontalAlignment="Center"
-                                    Command="{Binding Path=ServerSettingsCommand}"
-                                    Content="Show Server Settings"
-                                    IsEnabled="{Binding IsConnected}" />
 
                         </StackPanel>
                         <StackPanel Margin="0"
